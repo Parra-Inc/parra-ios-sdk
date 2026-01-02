@@ -8,8 +8,8 @@
 
 import UIKit
 
-enum ParraOrientation {
-    static var orientationLock = UIInterfaceOrientationMask.all {
+public enum ParraOrientation {
+    public static var orientationLock = UIInterfaceOrientationMask.all {
         didSet {
             let isPortrait = orientationLock == .portrait || orientationLock ==
                 .portraitUpsideDown
