@@ -30,7 +30,7 @@ let package = Package(
         .package(url: "https://github.com/Shopify/mobile-buy-sdk-ios", from: "13.1.0"),
         .package(url: "https://github.com/Shopify/checkout-sheet-kit-swift", from: "3.0.4"),
         .package(url: "https://github.com/scinfu/SwiftSoup.git", from: "2.8.0"),
-        .package(url: "https://github.com/SvenTiigi/YouTubePlayerKit.git", from: "2.0.0"),
+        .package(url: "https://github.com/SvenTiigi/YouTubePlayerKit.git", from: "2.0.5"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
