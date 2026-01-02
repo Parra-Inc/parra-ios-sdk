@@ -92,7 +92,8 @@ struct FeedWidget: ParraContainer {
                         if !contentObserver.feedPaginator.isLoading {
                             componentFactory.buildEmptyState(
                                 config: .default,
-                                content: contentObserver.content.emptyStateView
+                                content: contentObserver.content.emptyStateView,
+                                onPrimaryAction: {}
                             )
                             .frame(
                                 minHeight: geometry.size
